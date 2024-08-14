@@ -1,0 +1,114 @@
+.manage {
+  padding-bottom: 165px;
+
+  &__part {
+    text-align: center;
+  }
+  &__list {
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    margin-bottom: 13px;
+  }
+  &__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #242d52;
+    margin-bottom: 54px;
+    opacity: 0.5;
+  }
+  &__item {
+    display: flex;
+    width: 345px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-image: url(/img/manage_03.svg), url(/img/line.svg);
+    background-position: left top, left top;
+    margin-bottom: 40px;
+  }
+
+  &__item_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    margin-bottom: 18px;
+  }
+  &__item_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #242d52;
+    opacity: 0.5;
+  }
+  &__num {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 25px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  @media screen and (min-width: 768px) {
+    &__block {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__part {
+      width: 440px;
+      text-align: start;
+    }
+    &__item {
+      width: 350px;
+      background-repeat: no-repeat;
+      background-image: url(/img/manage_03.svg);
+      background-position: left top;
+      padding-left: 10px;
+    }
+    &__num {
+      padding: 0 15px;
+      margin-right: 20px;
+    }
+  }
+  @media screen and (min-width: 1110px) {
+    &__block {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__part {
+      width: 445px;
+      text-align: start;
+    }
+    &__title {
+      font-size: 40px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__item {
+      font-size: 16px;
+    }
+    &__item {
+      width: 540px;
+      background-repeat: no-repeat;
+      background-image: url(/img/manage_03.svg);
+      background-position: left top;
+      padding-left: 10px;
+    }
+    &__num {
+      padding: 0 15px;
+      margin-right: 20px;
+    }
+  }
+}
